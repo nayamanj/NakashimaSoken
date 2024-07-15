@@ -52,8 +52,8 @@ header {
 
 .top h1{
     padding-bottom:50px;
-    opacity: 0.9;
-    color: white;
+    opacity: 0.7;
+    color: rgba(4, 8, 252, 1.0);
     font-size: 60px;
     letter-spacing:20px;
     text-align: center;
@@ -81,7 +81,7 @@ header {
     display: inline-block;
     width:25%;
     text-align: center;
-    font-size:17px;
+    font-size:15px;
 }
 
 .coment h2{
@@ -101,7 +101,7 @@ header {
     padding-left:10px;
     display: inline-block;
     width:20%;
-    font-size:17px;
+    font-size:15px;
 }
 
 .arrow{
@@ -121,7 +121,7 @@ header {
 }
 
 .access-left{
-    padding-top:70px;
+    padding-top:50px;
     padding-left:100px;
     float:left;
     display: inline-block;
@@ -149,4 +149,76 @@ footer p{
     letter-spacing: 10px;
 }
 
+@media (max-width: 1100px){
 
+    .top h1{
+        font-size: 40px;  
+    }
+
+    .middle-list h2{
+        font-size: 25px;
+    }
+
+    .list-p{
+        padding-top:10px;
+        padding-left:5px;
+        display: inline-block;
+        width:40%;
+        font-size:15px;
+    }
+
+}
+
+.contact-page{
+    padding-top:80px;
+    padding-left: 50px;
+    height: 370px;
+    
+}
+
+.contact-form input{
+    height:30px;
+    width:30%;
+}
+
+.contact-form span{
+    color:red;
+}
+
+.contact-form textarea{
+    padding:5px;
+    height:100px;
+    width:30%;
+}
+
+.contact-btn{
+    width:50px;
+    height:30px;
+}
+
+.contact-btn a{
+    background-color: #1c2f9b;
+    color:white;
+    border-radius: 1px;
+    
+}
+
+.staff-title {
+    border-bottom: 1px solid rgb(82, 82, 82);
+    width:50%;
+}
+
+.staff {
+    border-bottom: 1px solid rgb(82, 82, 82);
+    width:50%;
+}
+
+.staff h4{
+    font-weight: none;
+}
+
+.staff-page{
+    padding-top:80px;
+    padding-left: 50px;
+    
+}
