@@ -124,7 +124,6 @@ header {
     padding-top:50px;
     padding-left:100px;
     float:left;
-    display: inline-block;
     font-size: 20px;
     text-align: left;
 
@@ -194,6 +193,7 @@ footer p{
 .contact-btn{
     width:50px;
     height:30px;
+    padding-top:20px;
 }
 
 .contact-btn a{
@@ -221,4 +221,10 @@ footer p{
     padding-top:80px;
     padding-left: 50px;
     
+}
+
+.bmi-form{
+    font-size:30px;
+    font-weight:bold;
+    color:red;
 }
