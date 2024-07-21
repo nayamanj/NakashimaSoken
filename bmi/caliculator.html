@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BMI caliculator</title>
+        <link rel="stylesheet" href="../stylesheet.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-left">
+                    <h1>中島装研</h1>
+                </div>
+                <div class="header-right">
+                    <a href="../top.html">トップ</a>
+                    <a href="../company.html">会社概要</a>
+                    <a href="../staff.html">スタッフ紹介</a>
+                    <a href="../contact.html">お問合せ</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </header>
+
+        <div class="contact-page">
+            <div class="container">
+                <div class="contact-title">
+                    <h3>BMI　計算</h3>
+                </div>
+                <div class="contact-form">
+                    <p>体重 [kg]</p>
+                    <input id="weight-input" type="text" value="85">
+                    <p>身長 [cm]</p>
+                    <input id="height-input" type="text" value="158">
+                </div>
+                <p>あんたのBMIは...</p>
+                <div class="bmi-form">
+                    <div id="bmi-output"></div>
+                </div>
+
+                <div class="contact-btn">
+                    <input id="btn-submit" type ="submit" value="計算">
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <p>中島装研</p>
+        <p>(旧：インテリア中島)</p>
+    </footer>
+
+    <script src="bmi.js"></script>
+
+</html>
